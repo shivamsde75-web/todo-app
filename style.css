@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#heading{
+    margin-left: 35%;
+    margin-top: 20px;
+}
+#add,input{
+    margin-left: 20px;
+   margin-top: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   text-align: center;
+}
+#add{
+   
+    width: 100px;
+    background: rgb(42, 201, 42) ;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.todocontainer{
+     
+    display: grid;
+    grid-template-columns: 190px 150px 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    row-gap: 10px;
+    align-items: center;
+}
+.delete{
+    color:white;
+    background: rgb(166, 24, 24);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+input{
+    color: rgb(14, 14, 198);
+     border:2px solid red;
+     border-radius: 5px;
+}
